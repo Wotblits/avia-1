@@ -100,12 +100,8 @@ header .phones a {
 header .mob-menu {
   display: none;
 }
-/* 
-@media screen and (max-width: 1260px) {
-  header .container {
-    justify-content: space-between;
-  }
 
+@media screen and (max-width: 1260px) {
   header nav,
   header .lang,
   header .icons,
@@ -113,26 +109,23 @@ header .mob-menu {
   header button {
     display: none;
   }
+}
+header .mob-menu {
+  width: 46px;
+  height: 40px;
 
-  header .mob-menu {
-    width: 46px;
-    height: 40px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  header .mob-menu span {
-    width: 100%;
-    height: 6px;
-    border: 1 px solid #3e3b3b;
-    background-color: #3e3b3b;
-  }
-
-  header img {
-    margin: 0 auto;
-    transform: translateX(-46px);
-  }
-} */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header .mob-menu span {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #3e3b3b;
+  background-color: #3e3b3b;
+}
+header img {
+  margin-left: auto;
+  margin-right: auto;
+}
